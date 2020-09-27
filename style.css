@@ -1,0 +1,29 @@
+body {
+
+ text-align: center;
+
+ background-color: lightGreen;
+
+}
+
+div {
+
+ border-radius: 10px;
+
+ border: solid 20px darkBlue;
+
+ color: red;
+
+}
+
+a {
+
+color: black;
+
+ font-size: 25px;
+
+}
+
+button{
+
+}
