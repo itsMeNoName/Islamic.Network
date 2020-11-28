@@ -1,41 +1,91 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
+    <head>
+    <meta name="description" content="The Holy Quran, with English Translation, version2 ">
+    <meta name="keywords" content="project, Quran">
+    <meta description="created : 28/March/2019">
+    <meta name="author" content="Raz">
+    <meta charset="utf-8">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width= device-width,  initial-scale=1">
+        <title>The Holy Quran, with English Translation </title>
+    
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!--font-awesome cdn -->
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    
+    </head>
+    <body>
+    <!--
+    
+    # - This quran text is distributed under the terms of a Creative Commons Attribution 3.0 License.
+    #- Permission is granted to copy and distribute verbatim copies of this text, but CHANGING IT IS NOT ALLOWED.
+    # - This quran text can be used in any website or application, provided its source (Tanzil.net) is clearly indicated, and a link is made to http://tanzil.net to enable users to keep track of changes.
+    # - This copyright notice shall be included in all verbatim copies of the text, and shall be reproduced appropriately in all files derived from or containing substantial portion of this text. 
 
-<head>
+    -->
+      <div class="container-fluid">
+        <div class="card ">
+       <!-- <div class="col-2"></div>-->
+            <div class=" jumbotron">
+          
+            <h1> القرآن الكريم</h1>
+            </div>
+            
+        </div>
 
-<title>Siratul Mustakeem </title>
-
-<link rel="stylesheet" href="style.css"> 
-
-<style>
-
-h1{font-family: Georgia;Text-align:center;font-size:50px;}
-
-</style>
-
-</head>
-
- <body>
-
- <div>
-
- <h1 class="app"><strong>The Islamic Network</strong></h1>
-
- <p style="color:black; font-size:20px">Read and Share</p> 
-
- <br>
-
-<p style="border : solid; background-color:black; color:white; text-align:center;"> dark mode </p> <br> </div> <br>
-
-  <button><a href="/quran.html">Quran</a></button><br><br>
-
-  <button><a href="/hadees.html">Hadees</a></button> <br> <br>
-
-  <button><a href="/index.html">Settings</a></button>
-
-  <br> <br> <br> <br>
-
- </body>
-
+        <div class="card">
+     <div class="col ">
+     <div class="btn-group txt" >
+     <button class="btn btn-secondary translate"> English Translation</button>
+  
+       <div class=" btn-group">
+      <button class=" btn btn-dark dropdown-toggle " data-toggle="dropdown" ><span class="menuAr">اختر السورة</span>
+          <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu scrollable">
+        
+      </ul>
+  </div><!-- end dropdown btn group -->
+      
+  </div><!--end btn group-->
+  </div>
+  </div>
+  
+    
+        <div class="card arabic ">
+           <div class="col-1"></div>
+            <div class="col ">
+        
+              <h4 id="title" > </h4>
+              <div class="pl-4 pr-4"  >
+                  <p id="ayat"></p>
+              </div>
+                  
+            </div>
+            <div class="col-1"></div>
+        </div>
+        
+        
+        
+        <div class="card trTxt ">
+           <div class="col-1"></div>
+            <div class="col ">
+        
+              <h4 id="translated-title" >  </h4>
+              <div class="pl-4 pr-4 en"  >
+                  <p id="translated"></p>
+              </div>
+                  
+            </div>
+            <div class="col-1"></div>
+        </div>
+           
+    </div> 
+  
+ L
+        
+    </body>
 </html>
